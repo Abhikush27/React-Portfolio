@@ -14,8 +14,8 @@ class Interest extends Component {
           animateOnce={true}
           initiallyVisible={true}
         >
-          <span className={classes.head}>WHAT I DO?</span>
-          <h2 className={classes.heading}>HERE ARE SOME OF MY EXPERTISE</h2>
+
+          <h2 className={classes.heading}>TECHNICAL SKILLS</h2>
           <div className={classes.Interest}>
             <ScrollAnimation
               offset={0}
@@ -25,10 +25,9 @@ class Interest extends Component {
               initiallyVisible={true}
             >
               <div className={classes.web}>
-                <h3>APP Develpoment</h3>
+                <h3>JAVA</h3>
                 <p>
-                  I have knowledge of flutter development and have experience in building android
-                  and IOS applications. I also have live projects published on Google Play Store.
+                  I have knowledge of Java Programming Language and have experience of working with it.
                 </p>
               </div>
             </ScrollAnimation>
@@ -56,13 +55,10 @@ class Interest extends Component {
               initiallyVisible={true}
             >
               <div className={classes.other}>
-                <h3>Other's Interest</h3>
+                <h3>Data Structure and Algorithm</h3>
                 <p>
-                  I also have decent hand in developing website with WordPress or others CMS as
-                  well.
-                  <br />
-                  Redux, GraphQL, Next.js, Problem solving, Github are my fields of interest.
-                  Currently, I am investing my free time in Web3.js
+                  I also have enough practice in DataStructures and Algorithms
+                 
                 </p>
               </div>
             </ScrollAnimation>

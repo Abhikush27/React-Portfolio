@@ -18,17 +18,9 @@ class About extends Component {
           <h2 className={classes.heading}>Who Am I?</h2>
           <div className={classes.About}>
             <p>
-              My name is <b>SACHIN MITTAL</b> and I am currently working as{' '}
-              <b>Software Developer Engineer</b> at
-              <b>
-                {' '}
-                <a className={classes.link} target='_blank' href='https://www.springworks.in/'>
-                  Springworks
-                </a>
-              </b>
-              . I completed my degree in Bachelor of Technology in Computer Science and Engineering
-              from Sant Longowal Institute of Engineering and Technology. I am much interested in
-              developing new things which excite me a lot. :)
+              My name is <b>ABHIJEET CHAWLA</b> and I am currently persuing 
+               my degree in Bachelor of Technology in Computer Science and Engineering
+              from SRM Institute of Engineering and Technology. 
             </p>
             <p className={classes.br}>
               I love exploring new technologies and being a practitioner, I like to stay on top of

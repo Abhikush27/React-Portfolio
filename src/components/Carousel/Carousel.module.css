@@ -1,34 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
 .image {
   height: 734px;
+  width: 100%;
 }
 
 .h1 {
   margin: 50px;
   font-size: 2rem;
+  text-align: center;
   font-family: 'Permanent Marker', cursive;
   animation-name: text;
-  animation-duration: 1s;
-  animation-timing-function: ease-out;
+  animation-duration: 2s;
+  /* animation-timing-function: ease-out; */
   position: relative;
   top: -270px;
   left: 10px;
   color: rgba(255, 255, 255, 0.8);
 }
 
-.h2 {
-  margin: 50px;
-  font-size: 2rem;
-  font-family: 'Permanent Marker', cursive;
-  animation-name: text;
-  animation-duration: 1s;
-  animation-timing-function: ease-out;
-  position: relative;
-  top: -470px;
-  left: -20px;
-  text-align: right;
-  color: black;
-}
 
 .h1 a {
   color: rgba(255, 255, 255, 0.8);
@@ -69,20 +58,11 @@
 .secondButton {
   margin-top: 30px;
 }
-@keyframes text {
-  from {
-    transform: translateY(20px);
-    opacity: 0.2;
-  }
-  to {
-    opacity: 1;
-  }
-}
 
 @media (max-width: 400px) {
   .image {
     height: 600px;
-  }
+  } 
   .h1 a {
     width: 120px;
     font-size: 0.8rem;
